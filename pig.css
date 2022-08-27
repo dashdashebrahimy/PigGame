@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #3D5A80;
+}
+#gameboard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 600px;;
+    background-color: #98c1d9;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top:30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: unset;
+}
+.dicediv{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.total{
+    padding-top: 30px;
+    border: 3px solid #E0FBFC;
+    width: 200px;
+    position: relative;
+    left: 35%;
+    border-radius: 10px;
+    background-color: #E0FBFC;
+}
+.dice{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+.score{
+    border: 3px solid white;
+    width: 180px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    left: 37%;
+    padding-top: -100px;
+}
+.buttongame button{
+    font-size: 15px;
+    background: none;
+    width: fit-content;
+    margin-left:30px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: white;
+}
+.active{
+    background-color: #EE6C4D;
+}

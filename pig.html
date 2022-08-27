@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./pig.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="gameboard">
+        <!--firstscore-->
+             <div class="total">
+                    <h2>Total Score</h2>
+                    <h3>player 1</h3>
+                    <h2 id="score--0">0</h2>
+                </div>
+                <!--total2-->
+                <div class="total">
+                <h2>Total Score</h2>
+                <h3>player 2</h3>
+                <h2 id="score--1">0</h2>
+            </div>
+        <!--img-->
+           <div class="playing dicediv">
+              <img src="./dices/dice-0.png" width="90" height="90" class="dice">   
+               </div>
+        <!--totalscore--> 
+                <div class="score">
+                    <h3>current score</h3>
+                    <h2 id="cscore--0">0</h2>
+                </div>
+        <!--score2-->
+            <div class="score">
+                <h3>current score</h3>
+                <h2 id="cscore--1">0</h2>
+            </div>
+       <!--buttongame-->
+         <div class="buttongame">
+            <button type="submit" id="startgame">Start GAME</button>
+      </div>
+      <!--next-->
+      <div class="buttongame" id="next">
+            <button class="btn btn--roll">Roll dice</button>
+            <button id="nextPlayer">Hold</button>
+      </div>
+    </div>
+     <script src="./pig.js"></script>
+</body>
+</html>
